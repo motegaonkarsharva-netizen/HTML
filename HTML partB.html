@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">    <!--this is a attribute-->
+<head>
+    <meta charset="UTF-8">   <!--this is a attribute-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--this is a attribute-->
+    <title>Level 1 part B</title>
+</head>
+<body>
+    <!--List are of 2 types
+    unorganised list
+    organised list-->
+    <h2>i want</h2>
+    <ul>
+    <li>bread</li>
+    <li>samosa</li>
+    <li>Shawarma</li>
+    </ul>
+    
+    <ol>    
+    <li>bread</li>
+    <li>samosa</li>
+    <li>Shawarma</li>
+
+    </ol>
+    <!--atributes are used to add more information to the tag
+    
+    basically anything a="b" would be called an attribute-->
+
+    <!--achor element
+    used to add links to our page-->
+    <a href = "https://www.google.com/">Google</a>     <!--href is the attribute it's full form is hyper text reference basically the link. 
+    ->Back in the early days of the web, when Tim Berners-Lee designed HTML, links needed some way to store the destination. The HTML specification defined an attribute called href for that purpose.
+    -> google there means the text on which you click upon to open the link
+    ->if we only put google.com the html fill try to find google.com on out pc-->
+    <a href = "google.com/">Googlelocal</a>
+
+    <!--image element is used to add image to your page
+    ->it's a single tag ie it's-->
+    <img src = "Screenshot (353).png" alt = "Random name" height = "1000px" width = "1000px"> <!-- alt name mhange kadhi kadhi internet slow asto ani image load nhi hot tr alt name display hota-->
+<!--make sure the file of screenshot is in the same folder as code
+we can also add online link by using copy image adress-->
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6pPHjj1-A6so6tIfnkxQRJQSyeh3lyvpRg&s" alt = "Random name" height = "1000px" width = "1000px">
+
+    <!--Q) crate a website where we list 3 fruits and link of their photos-->
+
+    <h1>List of Fruits</h1>
+
+    <ul>
+        <li>Apple <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtkzZMTh_n9DE3CznuCnA8wVdQI7IQT9sDng&s">See an apple</a></li>
+
+        <li>Orange <a href="data:image/jpeg;base64,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">See an orange</a></li>
+
+        <li>Mango <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0J-W_xQ8nJ2T7SeBHdkUc68NZIE0Zb4woQ&s">See a mango</a></li>
+    </ul>
+    <!--more tags -->
+    <!--br tag-->
+    <p>this shit is time consuming bruv<br> i need some milk and biscuits innit<br> alright mate?</p>
+    <p>this shit is time consuming bruv<b> i need some milk and biscuits innit</b> alright mate?</p>
+    <p>this shit is time consuming bruv<i> i need some milk and biscuits innit</i> alright mate?</p>
+    <p>this shit is time consuming bruv<u> i need some milk and biscuits innit</u> alright mate?</p>
+    <!--comments for this shortcut is ctrl+forward slash(/)-->
+    <!-- html is not case sensitive language-->
+
+</body>
+</html>
+
